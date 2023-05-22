@@ -1,0 +1,504 @@
+/* DARK GRAY: #262228 */
+/* LIGHT GRAY: #262228 */
+/* BLUE 1: #0375b4 */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #262228;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 45pt;
+  font-weight: 500;
+}
+img {
+  width: 100%;
+}
+.blue1 {
+  color: #0375b4;
+}
+.number {
+  color: #29abe2;
+  font-weight: bold;
+}
+.boolean {
+  color: yellow;
+  font-weight: bold;
+}
+.string {
+  color: orange;
+  font-weight: bold;
+}
+.dark-gray {
+  color: #262228;
+}
+.white {
+  color: #ffffff;
+}
+.subtitle {
+  font-size: 21pt;
+}
+.text-col {
+  width: 80%;
+    margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 90%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.paragraph {
+  font-size: 14pt;
+  line-height: 1.3em;
+  margin: 10px 0px;
+}
+
+#hero {
+  background-image: url(../img/heroPattern2.png);
+  background-attachment: fixed;
+  height: 100vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  widows: 3;
+  orphans: 3;
+}
+#hero .cta{
+  margin-top: 20px;
+}
+
+#heroSubtitle {
+  max-width: 400px;
+}
+#hero-text {
+
+}
+
+#hero-text h1{
+  display: inline-block;
+  border-bottom: 3px solid #262228;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#collect-data {
+  min-height: 80vh;
+/*  background: linear-gradient(119.72deg, rgba(3, 117, 180, 1) 0%, rgba(33, 67, 180, 1) 100%);*/
+  background-image: url("../img/circles-bg.png");
+  background-attachment: fixed;
+  color: white;
+}
+#collect-data .content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#collect-data .subtitle {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#watch-video {
+  width: 230px;
+  padding: 20px 20px;
+  background-color: white;
+  margin-top: 60px;
+  color: black;
+  font-size: 0.8em;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+#watch-video:hover{
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  border: 2px solid #0375b4;
+}
+#watch-video:hover img{
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+#watch-video img{
+  width: 90px;
+  border: 1px solid black;
+  margin-right: 10px;
+  float: left;
+  transition: 0.3s;
+}
+#video-text {
+  padding: 10px 0px;
+}
+
+#codeBlock{
+  background-color: #333;
+  border: 1px solid #202020;
+/*  display: inline-block;*/
+  padding: 10px 30px;
+  margin: 15px;
+  border-radius: 3px;
+  display: none;
+  width: 100%;
+}
+#codeBlock pre {
+  color: white;
+}
+
+#made-for-music {
+  min-height: 80vh; 
+}
+
+#made-for-music .content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#music-header {
+  margin-bottom: 20px;
+}
+#icon-items {
+  margin: 60px 0px;
+}
+.icon-item {
+  margin: 40px 0px;
+  height: 20px;
+}
+.icon {
+  height: 30px;
+  width: 25px;
+  float: left;
+  margin-right: 20px;
+}
+
+#our-story {
+/* background-color: #262228;*/
+  background: url('../img/1x/triangles-bg.png');
+  background-attachment: fixed;
+  min-height: 80vh; 
+}
+
+#our-story .content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#our-story h1 {
+  margin-bottom: 20px;
+}
+
+#gallery{
+  margin-top: 30px;
+}
+.team-boxes{
+  margin-top: 60px;
+}
+
+.team-box {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.team-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#contact-us {
+/*  background-color: #0375b4;*/
+ background-color: #262228;
+  min-height: 40vh;
+}
+
+#contact-us .content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.form.message {
+  resize: none;
+}
+.form {
+  margin-top: 20px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+  color: white;
+}
+.form:focus {
+  border-bottom-color: white;
+  color: white;
+}
+
+.form:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.form:focus::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.form:focus:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.form:focus:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+.submitButton{
+  display: inline-block;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border: 3px solid gray;
+  border-radius: 4px;
+/*  color: #0375b4;*/
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.2s;
+}
+.submitButton:hover{
+  cursor: pointer;
+  background-color: #0375b4;
+  border-color: #0375b4;
+  color: white;
+  border-radius: 30px;
+}
+#footer .content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.chart-container{
+  position: relative;
+  height:40vh;
+  width:80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#browserImage{
+  position: absolute;
+  width: 90vw;
+  margin-left: 5vw;
+  top: 0px;
+}
+.chart-header{
+  margin-top: 10vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#modelName{
+  text-align: center;
+/*  font-weight: bold;*/
+  font-family: cursive;
+  font-size: 2em;
+  color: #444;
+
+}
+
+#progressHolder{
+  margin: 15px 0px;
+  border: 1px solid #ddd;
+  height: 2px;
+  border-radius: 20px;
+}
+#progressIndicator{
+  width: 0%;
+  background-color: rgba(54, 162, 235,1);
+  height: 2px;
+  border-radius: 20px;
+  animation-duration: 3s;
+  animation-name: showProgress;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes showProgress{
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 0;
+  }
+}
+#svg-holder{
+  display: none;
+}
+.show-item{
+  display: block !important;
+}
+.scaleIn{
+  transform-origin: center;
+  animation-duration: 1s;
+  animation-name: scaleIn;
+  animation-timing-function: ease-in-out;
+}
+@keyframes scaleIn{
+  0%{
+    -webkit-transform: scale3d(0, 0, 0);
+    transform: scale3d(0, 0, 0);
+  }
+  100%{
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.movePath{
+  animation: movePath 5s infinite reverse linear, fadeIn 2s ease-in;
+  transform-origin: center;
+}
+@keyframes movePath{
+  to {
+    stroke-dashoffset: 120;
+  }
+}
+.animated{
+  transform-origin: center;
+}
+
+#guitar{
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+.wipeIn{
+  animation: wipeIn;
+  animation-duration: 1s;
+  transform-origin: left;
+  animation-timing-function: ease-in-out;
+}
+@keyframes wipeIn {
+  0%{
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+  }
+  100%{
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100%{
+    opacity 1;
+  }
+}
+
+.hero2{
+  padding-top: 40px;
+ /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.hero h1{
+  text-align: center;
+  font-style: italic;
+/*  font-weight: bold;*/
+  margin: 40px 0px;
+  font-size: 2.5em;
+}
+#etDiagram{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta{
+  border: 2px solid #2196F3;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  transition: 0.1s;
+  text-decoration: none;
+}
+.cta:hover{
+  cursor: pointer;
+  background-color: #2196F3;
+  text-decoration: none;
+  color: white !important;
+  
+}
+
+.cta.dark{
+  background-color: #2196f3;
+  color: white;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

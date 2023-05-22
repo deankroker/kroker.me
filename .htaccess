@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^$ https://deankroker.com/ [R=301,L]
+
